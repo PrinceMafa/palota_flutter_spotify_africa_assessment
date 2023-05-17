@@ -22,6 +22,7 @@ class _SpotifyPlaylistState extends State<SpotifyPlaylist> {
     super.initState();
     playlistDetails = SpotifyAPI.getPlaylistDetails(playlistId);
   }
+  
 
   @override
   Widget build(BuildContext context) {
