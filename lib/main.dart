@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spotify_africa_assessment/routes.dart';
 
+import 'package:spotify_api/spotify_api.dart';
+
 void main() {
   runApp(const PalotaAssessmentApp());
 }
